@@ -1,0 +1,45 @@
+.sessions {
+	display: inline-grid;
+	margin-right: 2em;
+}
+
+.projects {
+	display: inline-grid;
+	margin-right: 2em;
+}
+
+.articles {
+	display: inline-grid;
+	
+}
+
+.centered {
+	padding: 20px;
+	outline-style: solid;
+	outline-color: pink;
+	outline-width: 4pt;
+}
+
+body, html {
+	font-family: 'gotham', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: lightblue;
+	margin-top: 3em;
+}
+
+a {
+	text-decoration: none;
+	color: yellow;
+	margin-bottom: 10px;
+}
+
+h1 {
+	color: white;
+	margin-bottom: 1em;
+}
+
+h3 {
+	color: lavender;
+}
