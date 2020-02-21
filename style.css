@@ -1,23 +1,18 @@
 .sessions {
-	display: inline-grid;
 	margin-right: 2em;
 }
 
 .projects {
-	display: inline-grid;
 	margin-right: 2em;
 }
 
 .articles {
-	display: inline-grid;
 	
 }
 
-.centered {
+.grid-container {
+	display: inline-grid;
 	padding: 20px;
-	outline-style: solid;
-	outline-color: pink;
-	outline-width: 4pt;
 }
 
 body, html {
@@ -31,7 +26,7 @@ body, html {
 
 a {
 	text-decoration: none;
-	color: yellow;
+	color: white;
 	margin-bottom: 10px;
 }
 
@@ -41,5 +36,5 @@ h1 {
 }
 
 h3 {
-	color: lavender;
+	color: yellow;
 }
