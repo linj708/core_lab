@@ -26,6 +26,10 @@ section {
 	border-radius: 25px;
 }
 
+.section-label {
+	color: white;
+}
+
 #system-title {
 	grid-column: 1;
 	grid-row: 1;
