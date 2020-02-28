@@ -218,6 +218,8 @@ input[type=text] {
   border: none;
   border-radius: 15px;
   cursor: pointer;
+  margin-bottom: 1em;
+  margin-top: 1em;
 }
 
 .dropdown {
@@ -317,6 +319,7 @@ input:checked + .slider:before {
 label {
     display: block;
     font: 1rem 'Source Sans Pro', sans-serif;
+    margin-top: 1em;
 }
 
 input {
@@ -341,6 +344,7 @@ input {
   height: 100px;
   -webkit-animation: spin 2s linear infinite; /* Safari */
   animation: spin 2s linear infinite;
+  margin-top: 1em;
 }
 
 /* Safari */
