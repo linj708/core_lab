@@ -1,0 +1,124 @@
+input {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:1em;
+	color:#000;
+}
+
+small { font-style:italic }
+
+.star {	color:#b30000; }
+
+label {
+	display:block;
+}
+.inline {
+	display:inline;
+}
+.instructions {
+	position:relative;
+	top: 1.6em;
+	display:block;
+}
+.instructions-container {
+	margin-bottom:2em;
+}
+.instructions-container label {
+	margin-bottom:-1.2em;
+}
+.hidden 
+{position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;}
+
+.error {color:red;}
+input[type=submit] { font-size:1em; padding:5px }
+
+form span.desc { font-size:.8em; font-style:italic}
+
+body, html {
+	font-family: 'Fugaz One', sans-serif;
+	color: #799ba1;
+	margin: 1em;
+	background-color: #e6dcad;
+}
+
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+section {  
+	background:#799ba1;  
+	color: white; 
+	padding:3em; 
+	border-radius: 25px;
+}
+
+#grid-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-auto-rows:min-content;
+	grid-gap: 2em;
+	background-color: white;
+	padding: 1em;
+	border-radius: 25px;
+}
+
+.section-label {
+	color: #add8e6;
+}
+
+#main-title {
+	font-size: 5rem;
+	text-decoration: underline #a17993;
+	grid-column: 1;
+	grid-row: 1;
+}
+
+#principles {
+	font-size: 2rem;
+	color: #a17993;
+}
+
+.design-principles {
+	grid-column: 2;
+	grid-row: 1;
+	padding: 3em;
+}
+
+.styles {
+	grid-column: 1;
+	grid-row: 2;
+}
+
+.components {
+	grid-column: 2;
+	grid-row: 2;
+}
+
+.design-patterns-group {
+  grid-column: 1;
+  grid-row:3;
+}
+
+.regions {
+	grid-column: 2;
+	grid-row: 3;
+}
+
+.content {
+	grid-column: 1;
+	grid-row: 4;
+}
+
+.layout {
+	grid-column: 2;
+	grid-row: 4;
+}
+
+.usability {
+	grid-column: 1;
+	grid-row: 5;
+}
