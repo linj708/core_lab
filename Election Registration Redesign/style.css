@@ -42,11 +42,17 @@ body, html {
 	font-family: 'Fugaz One', sans-serif;
 	color: #799ba1;
 	margin: 1em;
-	background-color: #e6dcad;
+	background-color: lightgray;
 }
 
 p {
 	font-family: 'Source Sans Pro', sans-serif;
+	color: black;
+}
+
+li {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: black;
 }
 
 section {  
@@ -75,42 +81,12 @@ h1 {
 	color: #a17993;
 }
 
-#register {
+#readinfo {
 	grid-column: 1;
-	grid-row: 2;
-}
-
-#verify {
-	grid-column: 1;
-	grid-row: 3;
-}
-
-#sendform {
-	grid-column: 1;
-	grid-row: 4;
-}
-
-#questions {
-	grid-column: 1;
-	grid-row: 5;
-}
-
-#fieldset1 {
-	margin-top: 5em;
-	grid-column: 2;
 	grid-row: 1;
 }
-#fieldset2 {
-	grid-column: 2
-	grid-row: 2;
-}
 
-#fieldset3 {
+#fieldset {
 	grid-column: 2;
-	grid-row: 3;
-}
-
-#fieldset4 {
-	grid-column: 2
-	grid-row: 4;
+	grid-row: 1;
 }
