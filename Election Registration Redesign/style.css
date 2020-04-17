@@ -42,7 +42,6 @@ body, html {
 	font-family: 'Fugaz One', sans-serif;
 	color: #799ba1;
 	margin: 1em;
-	background-color: lightgray;
 }
 
 p {
@@ -70,6 +69,7 @@ section {
 	background-color: white;
 	padding: 1em;
 	border-radius: 25px;
+	border: solid 12px #e6dcad;
 }
 
 .section-label {
