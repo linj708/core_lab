@@ -6,12 +6,25 @@
   --ds-pink:#e6add2;
 }
 
+@media screen and (max-width:767px){
+  .landing{
+    display: inline;
+  }
 
+  .design-principles{
+    width: 100%;
+    padding: 0;
+  }
+}
 
 body, html {
 	font-family: 'Fugaz One', sans-serif;
 	color: #799ba1;
 	margin: 1em;
+}
+
+.landing {
+  display: inline-flex;
 }
 
 p {
@@ -49,15 +62,15 @@ section {
 	text-decoration: underline #a17993;
 }
 
-#principles {
-	font-size: 2rem;
-	color: #a17993;
+.design-principles {
+  margin: 1em;
+  width: auto-fill;
 }
 
-.design-principles {
-	grid-column: 2;
-	grid-row: 1;
-	padding: 3em;
+
+.design-principles h1 {
+	font-size: 2rem;
+	color: #a17993;
 }
 
 #adjustments {
